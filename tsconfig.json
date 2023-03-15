@@ -1,0 +1,11 @@
+{
+  "include": ["sequelize-typescript/**/*"],
+  "exclude": ["**/*.test.js"],
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "declarationMap": false
+  }
+}

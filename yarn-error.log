@@ -1,0 +1,71 @@
+Arguments: 
+  /home/devil/.nvm/versions/node/v18.14.0/bin/node /home/devil/.nvm/versions/node/v18.14.0/bin/yarn add --dev typescript seuqelize-typescript @types/node @types/sequelize
+
+PATH: 
+  /home/devil/.nvm/versions/node/v18.14.0/bin:/home/devil/perl5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/seuqelize-typescript: Not found
+      at params.callback [as _callback] (/home/devil/.nvm/versions/node/v18.14.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/home/devil/.nvm/versions/node/v18.14.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/devil/.nvm/versions/node/v18.14.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/devil/.nvm/versions/node/v18.14.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "pgvector",
+    "version": "0.1.0",
+    "description": "pgvector support for Node.js",
+    "homepage": "https://github.com/pgvector/pgvector-node",
+    "license": "MIT",
+    "authors": [
+      "ankane"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pgvector/pgvector-node.js"
+    },
+    "exports": {
+      "./pg": "./pg/index.js",
+      "./sequelize": "./sequelize/index.js",
+      "./package.json": "./package.json"
+    },
+    "files": [
+      "pg",
+      "sequelize",
+      "utils"
+    ],
+    "engines": {
+      "node": ">= 12"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+    "devDependencies": {
+      "jest": "^27.0.4",
+      "pg": "^8.6.0",
+      "pg-promise": "^10.10.2",
+      "sequelize": "^6.6.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
