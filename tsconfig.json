@@ -1,5 +1,5 @@
 {
-  "include": ["sequelize-typescript/**/*"],
+  "include": ["pg/**/*", "sequelize/**/*", "types/**/*"],
   "exclude": ["**/*.test.js"],
   "compilerOptions": {
     "allowJs": true,

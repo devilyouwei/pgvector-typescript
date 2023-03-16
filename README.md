@@ -1,6 +1,6 @@
-# pgvector-node
+# pgvector-ts
 
-[pgvector](https://github.com/pgvector/pgvector) support for Node.js
+[pgvector](https://github.com/pgvector/pgvector) support for Node.js Typescript
 
 Supports [Sequelize](https://github.com/sequelize/sequelize), [node-postgres](https://github.com/brianc/node-postgres), and [pg-promise](https://github.com/vitaly-t/pg-promise)
 
@@ -11,14 +11,18 @@ Supports [Sequelize](https://github.com/sequelize/sequelize), [node-postgres](ht
 Run:
 
 ```sh
-npm install pgvector
+npm install pgvector-ts
 ```
 
 And follow the instructions for your database library:
 
-- [Sequelize](#sequelize)
-- [node-postgres](#node-postgres)
-- [pg-promise](#pg-promise)
+- [pgvector-ts](#pgvector-ts)
+  - [Installation](#installation)
+  - [Sequelize](#sequelize)
+  - [node-postgres](#node-postgres)
+  - [pg-promise](#pg-promise)
+  - [History](#history)
+  - [Contributing](#contributing)
 
 ## Sequelize
 

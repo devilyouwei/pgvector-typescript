@@ -636,7 +636,7 @@
 
 "@types/sequelize@^4.28.14":
   version "4.28.14"
-  resolved "https://registry.yarnpkg.com/@types/sequelize/-/sequelize-4.28.14.tgz#70302689ddef09f5d472b548a14e5a150e690aff"
+  resolved "https://registry.npmmirror.com/@types/sequelize/-/sequelize-4.28.14.tgz#70302689ddef09f5d472b548a14e5a150e690aff"
   integrity sha512-O8lTJ8YPVVaoY9xjduchDlo0MOS3w262pro2H1QMuFIo/kc/p1elP/UxLOTP2wcVO2cFd6Gvghg9ZSAiJi0GLA==
   dependencies:
     "@types/bluebird" "*"

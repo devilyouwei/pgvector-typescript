@@ -1,22 +1,36 @@
 {
-  "name": "pgvector",
-  "version": "0.1.0",
-  "description": "pgvector support for Node.js",
+  "name": "pgvector-ts",
+  "version": "0.1.1",
+  "description": "pgvector support for Node.js and typescript",
   "homepage": "https://github.com/pgvector/pgvector-node",
   "license": "MIT",
   "authors": [
     "ankane"
+  ],
+  "keywords": [
+    "sequelize",
+    "typescript",
+    "postgresql",
+    "postgres",
+    "vector"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/pgvector/pgvector-node.js"
   },
   "exports": {
-    "./pg": "./pg/index.js",
-    "./sequelize": "./sequelize/index.js",
+    "./pg": {
+      "require": "./pg/index.js",
+      "types": "./types/pg/index.d.ts"
+    },
+    "./sequelize": {
+      "require": "./sequelize/index.js",
+      "types": "./types/sequelize/index.d.ts"
+    },
     "./package.json": "./package.json"
   },
   "files": [
+    "dist",
     "pg",
     "sequelize",
     "utils"
@@ -28,13 +42,10 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@types/node": "^18.15.3",
-    "@types/sequelize": "^4.28.14",
     "jest": "^27.0.4",
     "pg": "^8.6.0",
     "pg-promise": "^10.10.2",
     "sequelize": "^6.6.2",
-    "sequelize-typescript": "^2.1.5",
     "typescript": "^4.9.5"
   }
 }
